@@ -31,7 +31,7 @@
 # /usr/bin/rhnpush -v --channel=centos7-x86_64 --server=https://localhost/APP \
 --dir="/var/distro-trees/centos7_64/Packages" -u admin -p spacewalk123
 ```
-上传进度估计在30分钟左右，上传完毕后，刷新频道信息页，我们可以看到，有 个包已经被添加进
-频道了。   
+上传进度估计在30分钟左右，上传完毕后，刷新频道信息页，我们可以看到，ISO里的8652个包已经
+被添加进频道了。   
 
 ![/images/2015_09_09_18_38_44_784x234.jpg](/images/2015_09_09_18_38_44_784x234.jpg)   

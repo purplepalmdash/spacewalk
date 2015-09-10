@@ -15,3 +15,4 @@
 * [创建CentOS7频道](CreateChannel/README.md)
 	* [创建频道](CreateChannel/CreateChannel.md)
 	* [添加软件包](CreateChannel/AddPackages.md)
+	* [管理软件频道](CreateChannel/AdminChannel.md)
