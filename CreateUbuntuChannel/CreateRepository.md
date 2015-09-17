@@ -133,4 +133,19 @@ until spacewalk-debian-sync.pl --username admin --password spacewalk123 --channe
  done
 ```
 
-经过漫长的同步以后，最终同步后的结果如下:    
+经过漫长的同步以后，最终结果如下:    
+
+![/images/2015_09_16_09_41_21_792x188.jpg](/images/2015_09_16_09_41_21_792x188.jpg)    
+
+### 常见问题
+有时候同步完软件仓库后，Spacewalk服务器在网页界面上可能会提示:    
+
+```
+"The scheduling service appears down.
+> Please contact your Satellite administrator."
+```
+
+这是因为taskomatic服务异常退出，退出的原因可能是因为同步仓库后生成仓库时JVM内存不够所导
+致。    
+
+解决方案，重新启动taskomatic服务` service taskomatic restart`
