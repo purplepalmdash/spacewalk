@@ -37,3 +37,7 @@
 	* [运行命令](AdminUbuntuSystem/RunCommand.md)
 * [创建Ubuntu Kickstart](CreateUbuntuKS/README.md)
 	* [创建KickStart频道](CreateUbuntuKS/CreateKSChannel.md)
+	* [KickStart条目](CreateUbuntuKS/KSMenu.md)
+* [管理勘误](ManageErrata/README.md)
+	* [CentOS勘误](ManageErrata/ErrataForCS.md)
+	* [Ubuntu勘误](ManageErrata/ErrataForUbuntu.md)
