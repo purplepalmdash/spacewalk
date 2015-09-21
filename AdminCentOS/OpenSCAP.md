@@ -22,9 +22,17 @@ OpenSCAP由Redhat主导开发，是一个整合了SCAP中各标准的开源框�
 
 ```
 # yum install -y spacewalk-oscap
+# yum install openscap-utils scap-security-guide -y
 ```
 
 ### scap 扫描
 在系统 -> 审计 -> 调度中可以设置OpenSCAP的调度:    
 
-![/images/2015_09_15_15_04_01_614x457.jpg](/images/2015_09_15_15_04_01_614x457.jpg)    
+![/images/2015_09_21_15_24_49_620x465.jpg](/images/2015_09_21_15_24_49_620x465.jpg)   
+
+扫描后的结果:    
+
+![/images/2015_09_21_15_28_14_815x347.jpg](/images/2015_09_21_15_28_14_815x347.jpg)   
+
+更详细的说明:    
+[https://access.redhat.com/documentation/zh-CN/Red_Hat_Network_Satellite/5.5/html/User_Guide/sect-Red_Hat_Network_Satellite-User_Guide-OpenSCAP-OpenSCAP_in_RHN_Satellite.html#sect-Red_Hat_Network_Satellite-User_Guide-OpenSCAP_in_RHN_Satellite-How_to_View_SCAP_Results](/https://access.redhat.com/documentation/zh-CN/Red_Hat_Network_Satellite/5.5/html/User_Guide/sect-Red_Hat_Network_Satellite-User_Guide-OpenSCAP-OpenSCAP_in_RHN_Satellite.html#sect-Red_Hat_Network_Satellite-User_Guide-OpenSCAP_in_RHN_Satellite-How_to_View_SCAP_Results)   
