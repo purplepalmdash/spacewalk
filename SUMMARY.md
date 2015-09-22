@@ -46,3 +46,7 @@
 	* [新建配置频道](Configuration/ConfigurationChannel.md)
 	* [订阅配置频道](Configuration/RegisteConfigurationChannel.md)
 	* [管理配置](Configuration/ManageConfiguration.md)
+* [组管理](GroupMgmt/README.md)
+	* [创建组](GroupMgmt/CreateGroup.md)
+	* [加入组](GroupMgmt/GroupAdd.md)
+	* [批量管理](GroupMgmt/GroupManage.md)
